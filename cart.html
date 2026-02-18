@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni Interior Design</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <header class="header">
+        <div class="logo">Furni<span>.</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About Us</a>
+        <a href="service.html">Service</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#" style="font-size: 20px;">
+          <i class="fa-solid fa-user"></i>
+        <a class="active" href="cart.html" style="font-size: 20px;">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+    </nav>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h1>Shop</h1>
+        </div>
+    </section>
+    <br><br><br>
+    
+    <table class="cart-table">
+        <tr>
+          <th>Image</th>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Remove</th>
+        </tr>
+      
+        <tr>
+          <td>
+            <img src="pictures/product-1.png">
+          </td>
+          <td>Product 1</td>
+          <td>$49.00</td>
+          <td>
+            <div class="quantity">
+              <button>_</button>
+              <input text value="1">
+              <button>+
+              </button>
+            </div>
+          </td>
+          <td>$49.00</td>
+          <td>
+            <button class="remove">x</button>
+          </td>
+        </tr>
+       
+          <td>
+            <img src="pictures/product-2.png">
+          </td>
+          <td>Product 1</td>
+          <td>$49.00</td>
+          <td>
+            <div class="quantity">
+              <button>_</button>
+              <input text value="1">
+              <button>+
+              </button>
+            </div>
+          </td>
+          <td>$49.00</td>
+          <td>
+            <button class="remove">x</button>
+          </td>
+        </tr>
+    </table>
+    <br>
+     <a href="#" class="explore-btn">Update Cart</a><a href="#" class="explore-btn">Continue Shopping</a>
+  
+     <h2 style=" max-width: 520px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: black;
+    text-align: left;">Coupon</h2>
+     <p style="max-width: 520px;
+    font-size: 15px;
+    line-height: 1.2;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    padding: auto ;
+    text-align: left;">
+    Enter your coupon code if you have one.</p>
+     <br><br>
+     <input style="width: 400px;" type="text" placeholder="coupon code">    
+     <a style="display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px 30px;
+  background:#232423;
+  color:white;
+  text-decoration:none;
+  border-radius:30px;
+  transition:0.3s;" href="#" >Apply Coupon</a>
+  <div class="cart-container">
+
+  <!-- LEFT SIDE (Products Table) -->
+  <div class="cart-left">
+    <!-- Yahan tumhara table hoga -->
+  </div>
+
+  <!-- RIGHT SIDE (Cart Totals Box) -->
+  <div class="cart-right">
+    <h2>CART TOTALS</h2>
+
+    <div class="total-row">
+      <span>Subtotal</span>
+      <span>$230.00</span>
+    </div>
+
+    <div class="total-row">
+      <span>Total</span>
+      <span>$230.00</span>
+    </div>
+
+    <button class="checkout-btn">
+      Proceed To Checkout
+    </button>
+  </div>
+
+</div>
+
+    <br><br><br>
+    <!--footer-->
+    <!-- Font Awesome CSS for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<footer class="custom-footer">
+  <div class="footer-main">
+    <!-- Left Side -->
+    <div class="footer-left">
+      <h3><i class="fas fa-envelope"></i> Subscribe to Newsletter</h3>
+
+      <form class="newsletter-form">
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+      </form>
+
+      <h3 class="furni-title">Furni.</h3>
+      <p>
+        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+      </p>
+    </div>
+
+    <!-- Right Side Links -->
+    <div class="footer-right">
+      <ul>
+        <li>About us</li>
+        <li>Services</li>
+        <li>Blog</li>
+        <li>Contact us</li>
+      </ul>
+      <ul>
+        <li>Support</li>
+        <li>Knowledge base</li>
+        <li>Live chat</li>
+        <li>Jobs</li>
+      </ul>
+      <ul>
+        <li>Our team</li>
+        <li>Leadership</li>
+        <li>Privacy Policy</li>
+        <li>Nordic Chair</li>
+      </ul>
+      <ul>
+        <li>Kruzo Aero</li>
+        <li>Ergonomic Chair</li>
+      </ul>
+    </div>
+
+    <!-- Sofa Image Top Right -->
+    <div class="footer-sofa">
+      <img src="pictures/sofa.png" alt="Sofa">
+    </div>
+  </div>
+
+  <!-- Social Media Icons -->
+  <div class="footer-social">
+    <a href="index.html"><i class="fab fa-facebook-f"></i></a>
+    <a href="index.html"><i class="fab fa-twitter"></i></a>
+    <a href="index.html"><i class="fab fa-instagram"></i></a>
+    <a href="index.html"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="footer-bottom">
+    <hr>
+    <p style="margin-right: 600px;">
+      Copyright ©2026. All Rights Reserved. — Designed with love by Untree.co 
+      <br>Distributed By ThemeWagon
+    </p>
+    <a style="margin-left:1050px;margin-top: -1px;margin-bottom: 80px;color: rgb(94, 92, 92);;"
+ href="index.html">Terms & Condition</a>
+    <a style="margin-left: 900px;margin-top: -20px;margin-bottom: 80px;color: rgb(94, 92, 92);
+    display: flex;" 
+    href="index.html">Privacy Policy</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -135,6 +135,19 @@ nav a:hover::after{
     transition: 0.3s;
 
 }
+/* Hero image responsive */
+.hero .image img {
+    width: 100%;   /* Full width container ke hisaab se */
+    max-width: 500px; /* Optional: max width rakho */
+    height: auto;  /* Aspect ratio maintain rahe */
+}
+
+/* Header ya sofa image specific fix */
+.header .logo img,
+.header .sofa img {
+    max-width: 100%;  /* Container ke andar fit ho */
+    height: auto;
+}
 .data{
   display:flex;
   justify-content:space-between;
@@ -876,7 +889,19 @@ input[type="text"] {
     vertical-align: middle;
   }
 }
+@media screen and (max-width: 768px) {
+    .hero .image,
+    .header .sofa {
+        overflow-x: hidden;   /* Extra horizontal scroll hataye */
+        padding-right: 0;     /* Agar kisi ne padding right di hai */
+    }
 
+    .hero .image img,
+    .header .sofa img {
+        width: 100%; /* Container ke andar fit */
+        max-width: 100%;
+    }
+}
 /* footer */
 .custom-footer {
   background-color: #fff;
